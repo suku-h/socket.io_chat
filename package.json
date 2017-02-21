@@ -1,0 +1,24 @@
+{
+  "name": "iochat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ioChat"
+  },
+  "keywords": [
+    "socket.io",
+    "node.js",
+    "chat"
+  ],
+  "author": "Sukumar",
+  "license": "ISC",
+  "dependencies":{
+      "socket.io": "^1.7.3",
+      "express": "~4.13.4"
+  }
+}
